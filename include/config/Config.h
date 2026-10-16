@@ -4,7 +4,7 @@
 #ifdef SERIAL_BAUD
     constexpr uint32_t BOARD_BAUD_RATE = SERIAL_BAUD;
 #else
-    constexpr uint32_t BOARD_BAUD_RATE =      115200;
+    constexpr uint32_t BOARD_BAUD_RATE = 115200;
 #endif
 
 #ifdef defined(SIMWIN) || defined(SIMLINUX) || defined(SIMMAC)
